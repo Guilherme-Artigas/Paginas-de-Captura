@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+@media only screen and (min-width: 320px) {
+    body {
+        font-family: 'Montserrat', Sans-Serif;
+    }
+    header {
+        color: white;
+        background: rgb(21, 92, 60);
+        text-align: center;
+    }
+    section.secao1 {
+        position: relative;
+    }
+    section.secao1 img {
+        height: auto;
+        max-width: 100%;
+    }
+    section.secao1 aside {
+        background: rgba(255, 255, 255, 0.5);
+        padding: 5px;
+        position: relative; top: -5px;
+        text-align: justify;
+    }
+    section.secao1 aside p#p2 {
+        margin: 10px 0px;
+    }
+    section.secao1 aside form label input, select {
+        margin: 5px 0px;
+        padding: 10px;
+        width: 100%;
+    }
+    section.secao2 {
+        background: rgba(0, 0, 0, 0.8);
+        color: white;
+        padding: 5px;
+        text-align: justify;
+    }
+    section.secao2 h2 {
+        margin: 10px 0px;
+        text-align: center;
+    }
+    section.secao2 img {
+        height: auto;
+        max-width: 100%;
+    }
+    footer a {
+        background: rgba(0, 0, 0, 0.9);
+        color: white;
+        display: block;
+        padding: 20px 5px;
+        text-align: center;
+        text-decoration: none;
+    }
+}
+@media only screen and (min-width: 426px) {
+    section.secao1 aside form {
+        margin: 0px auto;
+        width: 60%;
+    }
+}
+@media only screen and (min-width: 1023px) {
+    section.secao1 {
+        background-image: url('../_img/menino-tmnormal.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 750px;
+    }
+    section.secao1 img {
+        display: none;
+    }
+    section.secao1 aside {
+        position: relative; top: 30%; left: 1%;
+        width: 30%;
+    }
+    section.secao1 aside form {
+        width: 100%;
+    }
+}
