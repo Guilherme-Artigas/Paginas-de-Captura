@@ -16,7 +16,7 @@ main header {
     padding: 20px 30%;
 }
 main header h2 {
-    color: rgb(0, 191, 255);
+    color: rgba(1, 134, 209);
     text-decoration: underline;
 }
 /*  */
@@ -45,6 +45,13 @@ section.secao1 aside form label input {
     padding: 20px;
     width: 100%;
 }
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
 section.secao1 aside form input#botao-form {
     background: tomato;
     border-radius: 10px;
@@ -58,17 +65,36 @@ section.secao1 aside form input#botao-form {
 /*  */
 section.secao2 {
     background:rgba(1, 134, 209);
-    height: 300px;
-    width: 100%;
+    padding: 50px 0px;
+    text-align: center;
 }
 section.secao2 img {
-    border-bottom: 5px solid white;
-    border-right: 5px solid white;
     width: 150px;
+}
+section.secao2 div.descricao {
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    color: white;
+    display: inline-block;
+    margin: 0px 0px 0px 30px;
+    padding: 0px 30px 30px 0px;
+    text-align: justify;
+    width: 30%;
+}
+section.secao2 div.descricao h2 {
+    margin: 0px 0px 20px 0px;
 }
 /*  */
 footer {
     background:rgba(0, 0, 0, .7);
-    height: 50px;
-    width: 100%;
+}
+footer a {
+    color: white;
+    display: block;
+    padding: 10px 0px;
+    text-decoration: none;
+    text-align: center;
+}
+footer a:visited {
+    color: white;
 }
