@@ -83,7 +83,7 @@ main section.secao2 div.descricao {
     border-bottom: 1px solid white;
     display: inline-block;
     text-align: left;
-    width: 50%;
+    width: 60%;
 }
 main section.secao2 div.descricao h2 {
     margin: 0px 0px 10px 0px;
@@ -101,7 +101,7 @@ main footer a {
 main footer a:visited {
     color: white;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) {
     main section.secao1 {
         position: relative;
     }
